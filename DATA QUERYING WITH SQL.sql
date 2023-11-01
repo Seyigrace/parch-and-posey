@@ -1,6 +1,20 @@
-# parch-and-posey
-data extraction in SQL
+QUERYING DATA WITH SQL
 
+--CASE STUDY : Sales Analysis of Parch and Posey Company.
+-- In this analysis, we explore the intricate fabric of Parch and Posey Company. The dataset at hand offers a 
+--comprehensive view of customers, their orders, regional operations, web events, and the diligent efforts of 
+--our sales representatives. The primary aim of this investigation is to uncover significant insights across 
+--various data facets, with the overarching goal of enhancing decision-making and deepening our understanding 
+--of sales dynamics.
+
+-- 5 key dataset were presented
+-- accounts
+-- orders
+-- region
+-- web_event
+-- sales_reps 
+
+Questions
 --1. What region has the highest total revenue ?
   
 --Query:
@@ -126,3 +140,5 @@ ON sales_reps.id= accounts.sales_rep_id
 GROUP BY sales_reps.name
 ORDER by average_order desc 
 limit 5
+
+
